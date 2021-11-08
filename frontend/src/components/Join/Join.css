@@ -1,0 +1,39 @@
+.join-form-ctn {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-form {
+  background-color: rgb(80, 233, 205);
+  height: 350px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray, -2px -2px 5px gray, 2px -2px 5px gray,
+    -2px 2px 5px gray;
+}
+
+.join-form input {
+  width: 80%;
+  height: 40px;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.join-form .submit-btn {
+  width: 30%;
+  height: 40px;
+  text-align: center;
+}
+
+.submit-btn a {
+  font-size: 1.25em;
+  width: 100%;
+  height: 100%;
+}

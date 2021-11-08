@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  max-width: 100%;
+  overflow-y: hidden;
+  height: 100vh;
+  background-color: rgba(101, 245, 214, 0.425);
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input :active {
+  border: none;
+  outline: none !important;
+}
+
+ul li {
+  list-style: none;
+}

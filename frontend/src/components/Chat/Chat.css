@@ -1,0 +1,110 @@
+.ctn {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.chat-ctn {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-ctn {
+  height: 100%;
+  width: 100%;
+}
+
+.msg-ctn {
+  width: 100%;
+  height: 90%;
+  /* background-image: url("http://hd.wallpaperswide.com/thumbs/light_background-t2.jpg"); */
+  background-image: linear-gradient(to right, #bff7ea, #04f5c1);
+  box-shadow: 5px 5px 5px gray, -5px -5px 5px gray, 5px -5px 5px gray,
+    -5px 5px 5px gray;
+  margin-bottom: 10px;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.msg-ctn::-webkit-scrollbar {
+  width: 5px;
+}
+
+.msg-ctn::-webkit-scrollbar-track {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.msg-ctn::-webkit-scrollbar-thumb {
+  background-color: rgb(68, 54, 32);
+  border-radius: 2px;
+}
+
+.msg-form {
+  width: 100%;
+  height: 10%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.747);
+}
+
+.msg-form input {
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  font-size: 1.15em;
+  padding-left: 20px;
+}
+
+.msg-form button {
+  width: 15%;
+  height: 80%;
+  font-size: 2em;
+}
+
+.users-ctn {
+  width: 10%;
+}
+
+.users-in-room {
+  height: 100%;
+  width: 100%;
+}
+
+.user-in-room {
+  display: flex;
+  padding-left: 10px;
+  justify-content: flex-start;
+  background-color: rgba(101, 245, 214, 0.801);
+  height: 40px;
+}
+
+.user-in-room img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.roomname {
+  width: 10%;
+  font-size: 2em;
+  text-decoration: underline;
+  background-color: rgba(101, 245, 214, 0.801);
+}
